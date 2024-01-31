@@ -1,0 +1,31 @@
+ MINGW64 ~
+$ cd c:\git
+
+ MINGW64 /c/git
+$ cd git_challenge
+
+ MINGW64 /c/git/git_challenge
+$ git init
+Initialized empty Git repository in C:/git/git_challenge/.git/
+
+ MINGW64 /c/git/git_challenge (main)
+$ git add hello_world.txt
+
+ MINGW64 /c/git/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) d360fef] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+ MINGW64 /c/git/git_challenge (main)
+$ git add hello_world.txt
+
+ MINGW64 /c/git/git_challenge (main)
+$ git commit -m "sにほん"
+[main 594e1ae] sにほん
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+ MINGW64 /c/git/git_challenge (main)
+$ git log --oneline
+594e1ae (HEAD -> main) sにほん
+d360fef hello_world.txtを追加
